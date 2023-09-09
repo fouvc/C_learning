@@ -1,8 +1,8 @@
 #include<stdio.h>
-//switchºóÃæ±ØĞëÊÇÕûĞÍ±í´ïÊ½
-//caseºóÃæ±ØĞëÊÇÕûĞÍ³£Á¿±í´ïÊ½
-//default´¦Àí·Ç·¨
-//Èç¹ûÔÚÇ¶Ì×µÄswitchÖĞ£¬breakÓÃÓÚÌø³öµ±Ç°µÄswitchÓï¾ä
+//switchåé¢å¿…é¡»æ˜¯æ•´å‹è¡¨è¾¾å¼
+//caseåé¢å¿…é¡»æ˜¯æ•´å‹å¸¸é‡è¡¨è¾¾å¼
+//defaultå¤„ç†éæ³•
+//å¦‚æœåœ¨åµŒå¥—çš„switchä¸­ï¼Œbreakç”¨äºè·³å‡ºå½“å‰çš„switchè¯­å¥
 int main()
 {
 	int num = 0;
@@ -14,14 +14,14 @@ int main()
 	case 3:
 	case 4:
 	case 5:
-		printf("¹¤×÷ÈÕ");
+		printf("å·¥ä½œæ—¥");
 		break;
 	case 6:
 	case 7:
-		printf("ĞİÏ¢ÈÕ");
+		printf("ä¼‘æ¯æ—¥");
 		break;
 	default:
-		printf("ÊäÈë´íÎó");
+		printf("è¾“å…¥é”™è¯¯");
 		break;
 	}
 	return 0;
@@ -33,25 +33,25 @@ int main()
 //	switch (num)
 //	{
 //	case 1:		
-//		printf("ĞÇÆÚÒ»");
+//		printf("æ˜ŸæœŸä¸€");
 //		break;
 //	case 2:
-//		printf("ĞÇÆÚ¶ş");
+//		printf("æ˜ŸæœŸäºŒ");
 //		break;
 //	case 3:
-//		printf("ĞÇÆÚÈı");
+//		printf("æ˜ŸæœŸä¸‰");
 //		break;
 //	case 4:
-//		printf("ĞÇÆÚËÄ");
+//		printf("æ˜ŸæœŸå››");
 //		break;
 //	case 5:
-//		printf("ĞÇÆÚÎå");
+//		printf("æ˜ŸæœŸäº”");
 //		break;
 //	case 6:
-//		printf("ĞÇÆÚÁù");
+//		printf("æ˜ŸæœŸå…­");
 //		break;
 //	case 7:
-//		printf("ĞÇÆÚÆß");
+//		printf("æ˜ŸæœŸä¸ƒ");
 //		break;
 //	}
 //	return 0;
