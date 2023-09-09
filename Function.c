@@ -1,5 +1,5 @@
 #include<stdio.h>
-//ÊµÏÖÁ½¸öÊı½»»»ÄÚÈİ
+//å®ç°ä¸¤ä¸ªæ•°äº¤æ¢å†…å®¹
 //void swap(int x, int y)
 //{
 //	int tem = 0;
@@ -16,9 +16,9 @@
 //	printf("a=%d,b=%d\n", a, b);		a=10,b=20
 //	return 0;
 //}
-//ÒÔÉÏº¯ÊıÎŞ·¨ÊµÏÖÔ­ÒòÊÇxyµÄµØÖ·ÓëabµÄµØÖ·²»Í¬£¬¼´Ê¹¸Ä±äÁËxyÒ²²»Ó°Ïìab
+//ä»¥ä¸Šå‡½æ•°æ— æ³•å®ç°åŸå› æ˜¯xyçš„åœ°å€ä¸abçš„åœ°å€ä¸åŒï¼Œå³ä½¿æ”¹å˜äº†xyä¹Ÿä¸å½±å“ab
 
-void swap(int* x,int* y)//ĞÎ²Î
+void swap(int* x,int* y)//å½¢å‚
 {
 	int tem = 0;
 	tem = *x;
@@ -30,7 +30,7 @@ int main()
 	int a = 10;
 	int b = 20;
 	printf("a=%d,b=%d\n", a, b);		
-	swap(&a, &b);//Êµ²Î
+	swap(&a, &b);//å®å‚
 	printf("a=%d,b=%d\n", a, b);		
 	return 0;
 }
